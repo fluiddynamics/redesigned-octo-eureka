@@ -1,3 +1,2 @@
-FROM scratch
-COPY hello /
-CMD ["/hello"]
+FROM ubuntu
+RUN echo hello world
